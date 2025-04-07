@@ -22,9 +22,10 @@ public class FreeRangeSteps {
         landingPage.clickOnSectionNavigationBar(section);
     }
 
-    @And("select Introduccion al Testing")
+    @And("I select Introduccion al Testing")
     public void navigateToIntro() {
         cursosPage.clickFundamentosTestingLink();
+        // Tengo que mirar este metodo porque creo que no es necesario pero en el curso lo añaden y puede que este desactualizado este punto
         // fundamentosPage.clickIntroduccionTestingLink();
     }
 

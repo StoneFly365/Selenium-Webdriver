@@ -19,4 +19,4 @@ Feature: Navigation
   Scenario: Courses are presented correctly to potencial customers
     Given I navigate to www.freerangetesters.com
     When I go to Cursos using the navigation bar
-    And select Introduccion al Testing
+    And I select Introduccion al Testing
